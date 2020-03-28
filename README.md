@@ -6,4 +6,6 @@
 
 整体性能消耗比jQuery时代，节约了90%以上。
 
-![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/jq.jpg) 优化后-->  ![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/end.jpg)
+优化前 --> 优化后
+
+![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/jq.jpg)  ![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/end.jpg)
