@@ -1,0 +1,140 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+ul {  /* 去除ul的小黑点 */
+  list-style: none;
+}
+*{
+  box-sizing: border-box;
+}
+.pack_box{
+  width: 100%;
+  height: 100%;
+  background: url("../img/bj.jpg") no-repeat top left;
+  background-size: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+/*
+  开始动画框
+*/
+.start_box{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: #ccc;
+  opacity: 0.5;
+}
+.start_box span{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1000%;
+}
+/*
+  红包框
+*/
+.redpack_box{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.redpack_box li{
+  position: absolute;
+  /* animation: reMove 3s linear; */
+  /* animation-fill-mode: forwards; */
+  top: -100px;
+}
+.redpack_box li a{
+  display: block;
+}
+/*
+  弹出框
+*/
+.pop_box{
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 100;
+}
+.pop_box .pop_con {
+  width: 70%;
+  height: 160px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.pop_box .pop_con img{
+  width: 70%;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  margin: auto;
+  vertical-align: top;
+}
+.pop_box .pop_con h3{
+  color: red;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  top: 80px;
+  font-size: 120%;
+}
+.pop_box .pop_con a{
+  width: 36%;
+  height: 38px;
+  position: absolute;
+  top: 120px;
+  z-index: 999;
+  text-decoration: none;
+  color: #fff;
+  background: #177ad8;
+  text-align: center;
+  line-height: 38px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #177ad8;
+  left: 0;
+  right: 18px;
+  bottom: 0;
+  margin: auto;
+}
+
+.reAnimation {
+  animation:reMove 5s 1s forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes reMove {
+  from {
+    transform: translate3d(0,0,0);
+  }
+
+  to {
+    transform: translate3d(0,130vh,0);
+  }
+}
