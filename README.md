@@ -14,4 +14,4 @@
 
 优化前 --> 优化后
 
-![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/jq.jpg)  ![image](https://github.com/OldDream/huangyn15-qq.com/blob/master/end.jpg)
+![image](https://github.com/OldDream/H5-RedEnvelopeRain/blob/master/jq.jpg)  ![image](https://github.com/OldDream/H5-RedEnvelopeRain/blob/master/end.jpg)
